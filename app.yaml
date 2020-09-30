@@ -1,0 +1,5 @@
+name: njshttp
+version: 0.1
+apps:
+   njshttp:
+      command: /node_modules/.bin/pm2 start --no-daemon /njshttp/njshttp.js
